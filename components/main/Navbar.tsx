@@ -1,7 +1,8 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
+import Link from 'next/link';
 import React from "react";
-
+import git from "../../public/github-dark.svg"
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
@@ -10,16 +11,16 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
+          {/* <Image
             src="/NavLogo.png"
             alt="logo"
             width={70}
             height={70}
             className="cursor-pointer hover:animate-slowspin"
-          />
+          /> */}
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+           "Hello World"
           </span>
         </a>
 
@@ -38,16 +39,17 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
-          ))}
-        </div>
+  {Socials.map((social) => (
+    <a href={social.link} target="_blank" rel="noopener noreferrer" key={social.name}>
+      <Image
+        src={social.src}
+        alt={social.name}
+        width={24}
+        height={24}
+      />
+    </a>
+  ))}
+</div>
       </div>
     </div>
   );

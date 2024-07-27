@@ -82,16 +82,21 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "Linkedin",
+      src: "/linkedin-dark.svg",
+      link: " https://www.linkedin.com/in/akaki-chachava-851772163/",
     },
     {
       name: "Facebook",
-      src: "/facebook.svg",
+      src: "/twitter-dark.svg",
+      link: "https://www.facebook.com/A1A2A3A5A8A13A/",
+
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "Linkedin",
+      src: "/github-dark.svg",
+      link: "https://github.com/AKKK1",
+
     },
   ];
   
