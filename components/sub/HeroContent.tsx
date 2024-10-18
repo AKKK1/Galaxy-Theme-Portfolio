@@ -79,8 +79,8 @@ const HeroContent = () => {
         
         </motion.div >
        
-        <a href="/am"  download
-          variants={slideInFromLeft(1)}
+        <a href="/ac3ak1.pdf"  download
+        
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
        Download CV </a> 
        {/* <a 
@@ -111,9 +111,8 @@ const HeroContent = () => {
         /> */}
      
      <GridGlobe/>
-       
-
-    
+          <p>try it</p>
+          
       </motion.div>
     </motion.div>
   );
