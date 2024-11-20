@@ -80,7 +80,7 @@ const HeroContent = () => {
 
       {/* Grid Globe */}
       <motion.div
-        className="hidden  sm:flex w-full md:w-1.7/5 h-auto justify-center items-center lg:w-4/5"
+        className=" hidden  sm:flex w-full md:w-1.7/5 h-auto justify-center items-center lg:w-4/5"
       >
         <GridGlobe />
       </motion.div>
