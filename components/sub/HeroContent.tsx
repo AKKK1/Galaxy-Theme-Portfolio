@@ -20,13 +20,13 @@ const HeroContent = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="invisible md:visible Welcome-box py-2 px-3 border border-[#7042f88b] opacity-90 flex items-center gap-2"
+          className=" md:visible Welcome-box py-2 px-3 border border-[#7042f88b] opacity-90 flex items-center gap-2"
         >
           <SparklesIcon className="text-[#b49bff] h-5 w-5" />
           <h1 className="Welcome-text text-sm">
             <Typewriter
               options={{
-                strings: ["Globe is", "Customizable"],
+                strings: ["Connect from", "Anywhere", "Anytime"],
                 autoStart: true,
                 loop: true,
               }}
