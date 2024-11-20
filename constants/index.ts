@@ -86,12 +86,7 @@ export const Skill_data = [
       src: "/linkedin-dark.svg",
       link: " https://www.linkedin.com/in/akaki-chachava-851772163/",
     },
-    {
-      name: "Facebook",
-      src: "/twitter-dark.svg",
-      link: "https://www.facebook.com/A1A2A3A5A8A13A/",
 
-    },
     {
       name: "Linkedin",
       src: "/github-dark.svg",
