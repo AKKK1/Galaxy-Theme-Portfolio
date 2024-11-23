@@ -1,41 +1,36 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 
 interface Props {
   src: string;
   title: string;
   description: string;
   ae: string;
+  className?: string;
 }
 
-const ProjectCard = ({ src, title, description, ae }: Props) => {
+const ProjectCard: React.FC<Props> = ({ src, title, description, ae }) => {
   return (
-    <>
-    <a 
+    <a
       href={ae}
       target="_blank"
       rel="noopener noreferrer"
-      className="block relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] transition-transform hover:scale-105"
+      className="block relative overflow-hidden rounded-lg shadow-lg border border-purple-800 transition-transform hover:scale-105"
     >
       <div>
         <Image
           src={src}
           alt={title}
-          width={1000}
-          height={1000}
+          width={1200}
+          height={1200}
           className="w-full object-contain"
         />
-
-        <div className="relative p-4">
-          <h1 className="text-2xl font-semibold text-white md:text-1xl">
-            {title}
-          </h1>
-          
-          <p className="mt-2 text-gray-300">{description}</p>
+        <div className="p-4">
+          <h1 className="text-xl font-semibold text-white">{title}</h1>
+          <p className="mt-2 text-gray-400">{description}</p>
         </div>
       </div>
     </a>
-    </>
   );
 };
 

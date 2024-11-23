@@ -96,6 +96,44 @@ export const Skill_data = [
   ];
   
   
+export const projects = [
+  {
+    src: "/pro3.png",
+    title: "Starbucksreserve",
+    description: "NextJS, GSAP, ThreeJS, Tailwind",
+    ae: "https://www.starbucksreserve.com/",
+  },
+  {
+    src: "/pro1.png",
+    title: "Frog",
+    description: "React, Graphql, LS, Tailwind",
+    ae: "https://www.frog.co/",
+  },
+  {
+    src: "/pro2.png",
+    title: "Artsmia",
+    description: "React.js, Next.js, Tailwind ",
+    ae: "https://new.artsmia.org/",
+  },
+  {
+    src: "/rame.png",
+    title: "askona",
+    description: "React.js, Mern ",
+    ae: "https://www.askona.ru/",
+  },
+  {
+    src: "/sigmaa.png",
+    title: "sigmapool",
+    description: "React.js,MERN ",
+    ae: "https://sigmapool.com/",
+  },
+  {
+    src: "/alep.png",
+    title: "alephzero",
+    description: "React.js, Next.js Threejs ",
+    ae: "https://alephzero.org/",
+  },
+];
   
   export const Frontend_skill = [
     {
